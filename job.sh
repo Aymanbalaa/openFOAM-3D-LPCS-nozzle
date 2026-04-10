@@ -1,11 +1,4 @@
-#!/bin/bash
-#SBATCH --job-name=delaval_yes
-#SBATCH --nodes=4
-#SBATCH --ntasks-per-node=64
-#SBATCH --cpus-per-task=1
-#SBATCH --account=def-tembelym
-#SBATCH --time=10:00:00
-#SBATCH --output=log.slurm
+// this file makes the simulation run on narval HPC using 4 nodes with 64 cpus each for 10 hours and puts in a queue of jobs
 
 cd /home/naim123/yes
 module load openfoam/13
