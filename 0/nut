@@ -1,0 +1,17 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      nut;
+}
+dimensions      [0 2 -1 0 0 0 0];
+internalField   uniform 0;
+boundaryField
+{
+    Input           { type calculated; value uniform 0; }
+    Output          { type calculated; value uniform 0; }
+    NozzleWall      { type nutUSpaldingWallFunction; value uniform 0; }
+    AmbientSide     { type calculated; value uniform 0; }
+    defaultFaces    { type nutUSpaldingWallFunction; value uniform 0; }
+}
