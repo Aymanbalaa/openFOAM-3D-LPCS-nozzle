@@ -1,5 +1,4 @@
-// de Laval nozzle - full 3D revolution via Gmsh Extrude Rotate
-// Inlet r=4.8mm, convergent 7.5mm, rest identical to yes
+
 
 // Resolution
 nz_conv  = 50;
