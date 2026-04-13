@@ -85,9 +85,6 @@ out4[] = Extrude {{0,0,1},{0,0,0}, angle} { Surface{out3[0],out3[5],out3[10],out
 Physical Volume("internal") = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
 
 Physical Surface("Input")      = {1, out1[1], out2[1], out3[1], out4[1]};
-Physical Surface("Output")     = {out1[14],out2[14],out3[14],out4[14],
-                                   out1[19],out2[19],out3[19],out4[19]};
-Physical Surface("NozzleWall") = {out1[2],out2[2],out3[2],out4[2],
-                                   out1[6],out2[6],out3[6],out4[6]};
-Physical Surface("AmbientSide")= {out1[17],out2[17],out3[17],out4[17],
-                                   out1[18],out2[18],out3[18],out4[18]};
+Physical Surface("Output")     = {out1[14],out2[14],out3[14],out4[14], out1[19],out2[19],out3[19],out4[19]};
+Physical Surface("NozzleWall") = {out1[2],out2[2],out3[2],out4[2],out1[6],out2[6],out3[6],out4[6]};
+Physical Surface("AmbientSide")= {out1[17],out2[17],out3[17],out4[17], out1[18],out2[18],out3[18],out4[18]};
