@@ -1,4 +1,4 @@
-# openFOAM-3D-LPCS-nozzle
+# OpenFOAM-3D-LPCS-nozzle
 
 OpenFOAM case files for a 3D LPCS nozzle simulation (Concordia University capstone project).
 
